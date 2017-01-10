@@ -14,7 +14,9 @@ brew install carthage
 ### 二、使用
 1. 第一步, 在项目的根目录下新建一个无后缀的`Cartfile`文件
 2. 第二步, 打开命令终端，cd到所在项目目录，执行
-```carthage update --platform iOS --no-use-binaries
+```
+carthage update --platform iOS --no-use-binaries
+
 ```
 ###### *会自动checkout所有依赖的git仓库，并生成framework，如果不指定平台，则会生成依赖自身支持的所有平台的文件。*
 
